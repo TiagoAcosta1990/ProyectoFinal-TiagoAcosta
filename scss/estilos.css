@@ -79,14 +79,7 @@ body {
 }
 
 .carousel-item img {
-  height: 455px;
   opacity: 65%;
-}
-
-@media (min-width: 300px) and (max-width: 768px) {
-  .carousel-item img {
-    height: 200px;
-  }
 }
 
 .carousel-item .fuente-titulos-bold {
@@ -100,6 +93,7 @@ body {
 .formulario .boton-enviar {
   border: none;
   border-radius: .5rem;
+  font-size: 1rem;
 }
 
 .formulario .boton-enviar:hover {
@@ -186,17 +180,6 @@ body {
   border-radius: .5rem;
 }
 
-.contenedor-carousel .carousel-item img {
-  height: 300px;
-}
-
-@media (min-width: 300px) and (max-width: 768px) {
-  .contenedor-carousel .carousel-item img {
-    height: 200px;
-    width: 100%;
-  }
-}
-
 /*-------------------contacto.html-----------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------*/
@@ -271,7 +254,7 @@ body {
 
 @media (min-width: 300px) and (max-width: 600px) {
   .contenedor-sala2d .contenido-sala2d img {
-    height: 200px;
+    height: 150px;
   }
 }
 
@@ -279,7 +262,7 @@ body {
   height: 200px;
 }
 
-@media (min-width: 300px) and (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 768px) {
   .contenedor-sala2d .imagen-dolby img {
     height: 100px;
   }

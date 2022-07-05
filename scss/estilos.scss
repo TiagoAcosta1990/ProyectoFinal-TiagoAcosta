@@ -36,31 +36,25 @@
         }
     }
     
-    
-    
-    
-    .carousel-item {
-        img {
-            height: 455px;
-            opacity: 65%;
-        }
-        @media (min-width: 300px) and (max-width: 768px) {
-            img {
-                height: 200px;
-            }
-        }
-        .fuente-titulos-bold {
-            font-size: 3rem;
-        }
-        p {
-            font-size: 1.5rem;
-        }
+.carousel-item {
+    img {
+        
+        opacity: 65%;
     }
+    
+    .fuente-titulos-bold {
+        font-size: 3rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+}
     
     .formulario {
         .boton-enviar {
             border: none;
             border-radius: .5rem;
+            font-size: 1rem;
         }
         .boton-enviar:hover {
             background-color: #0A233D;
@@ -133,20 +127,7 @@
     }
     .contenedor-carousel{
         border: solid yellow;
-        border-radius: .5rem;
-        .carousel-item{
-            img{
-                height: 300px;
-            }
-            @media (min-width:300px) and (max-width: 768px){
-                img{
-                    height: 200px;
-                    width: 100%;
-                }
-            }
-
-        }
-        
+        border-radius: .5rem;    
     }
     /*-------------------contacto.html-----------------------------------------------------------------------
 
@@ -223,7 +204,7 @@
         .contenido-sala2d{
             @media (min-width: 300px) and (max-width: 600px){
                 img{
-                    height: 200px;
+                    height: 150px;
                 }
             }
         }
@@ -231,7 +212,7 @@
             img{
                 height: 200px;
             }
-            @media (min-width: 300px) and (max-width: 600px){
+            @media (min-width: 300px) and (max-width: 768px){
                 img{
                     height: 100px;
                 }
